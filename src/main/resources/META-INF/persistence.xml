@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="J2.L.P0001" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>bangnn.dtos.UsersDTO</class>
+    <class>bangnn.dtos.SuppliersDTO</class>
+    <class>bangnn.dtos.ItemsDTO</class>
+    <class>bangnn.blos.ItemsBLO</class>
+    <class>bangnn.blos.UsersBLO</class>
+    <class>bangnn.blos.SuppliersBLO</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://10.211.55.3:1433;databaseName=ItemManagement"/>
+      <property name="javax.persistence.jdbc.user" value="sa"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.password" value="Nhatrang1"/>
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>
+    </properties>
+  </persistence-unit>
+</persistence>

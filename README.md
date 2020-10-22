@@ -1,6 +1,7 @@
 # BangMapleSupplierWithItemManagement
 ------------
 *A desktop application for suppliers and items management with Java Swing-based technology*
+
 **--Special Features:**
 * - The application is created based on Onion Architecture for easily maintaining the code.*
 * - Using EclipseLink provider for Java Persistence API (JPA) implementation.*

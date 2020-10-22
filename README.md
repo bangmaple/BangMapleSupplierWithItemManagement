@@ -8,6 +8,8 @@
 * - Support for full-text searching for instant search for suppliers/items.*
 * - Handmade sorting for all properties of suppliers/items.*
 * - CSV-based database for importing/exporting functions is currently under development.*
+
+
 **--Core Features:**
 
 **- Manage suppliers:**
